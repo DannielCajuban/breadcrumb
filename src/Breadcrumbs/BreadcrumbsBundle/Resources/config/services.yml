@@ -1,0 +1,11 @@
+services:
+#    breadcrumbs_breadcrumbs.example:
+#        class: Breadcrumbs\BreadcrumbsBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+services:
+    app.twig_extension:
+        class: Breadcrumbs\BreadcrumbsBundle\Resources\views\twig\AppExtension
+        public: false
+        tags:
+            - { name: twig.extension }

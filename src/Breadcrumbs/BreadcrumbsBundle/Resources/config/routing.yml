@@ -1,0 +1,15 @@
+breadcrumbs_breadcrumbs_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BreadcrumbsBreadcrumbsBundle:Default:index }
+
+breadcrumbs_breadcrumbs_sample:
+    path:     /sample
+    defaults: { _controller: BreadcrumbsBreadcrumbsBundle:Default:sample }
+
+breadcrumbs_breadcrumbs_sample2:
+    path:     /sample/sample2
+    defaults: { _controller: BreadcrumbsBreadcrumbsBundle:Default:sample2 }
+
+breadcrumbs_breadcrumbs_blend:
+    path:     /blend/blend2/blending
+    defaults: { _controller: BreadcrumbsBreadcrumbsBundle:Default:blend }
